@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "New Tab To The Right",
+  "version": "1.0.0",
+  "description": "Moves newly created tabs immediately to the right of the current tab.",
+  "permissions": ["tabs"],
+  "background": {
+    "service_worker": "service_worker.js"
+  }
+}
+
